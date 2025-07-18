@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.0.min.js"></script>
+    <title>C'Groovy - Home</title>
+    <link rel="stylesheet" href="../CSS/index-style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger-icon">&#9776;</label>
+            <div class="logo">C'Groovy</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="collection.html">Song Collection</a></li>
+                <li><a href="detail-BlindingLights.html">Song Details</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1><strong> Music, Anytime and Anywhere</h1>
+        <p>Feel the groove with C'Groovy's best tracks and latest hits!</strong></p>
+    </div>
+
+    <!-- Best Seller Songs -->
+    <div class="best-seller">
+        <h2>Best Seller Songs</h2>
+        <div class="songs">
+            <div class="song-card">
+                <img src="../Asset Files/Images/Luther.jpg" alt="Song 1">
+                <h3>Luther</h3>
+                <p>Kendrick Lamar & SZA</p>
+            </div>
+            <div class="song-card">
+                <img src="../Asset Files/Images/Die With a Smile.jpg" alt="Song 2">
+                <h3>Die With A Smile</h3>
+                <p>Lady Gaga & Bruno Mars</p>
+            </div>
+            <div class="song-card">
+                <img src="../Asset Files/Images/Nokia.jpg" alt="Song 3">
+                <h3>Nokia</h3>
+                <p>Drake</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Slider (Recommendation Songs) -->
+    <div class="slider-recommendation">
+        <h2>Recommended Songs</h2>
+        <div class="slider-container">
+            <button class="slider-btn" id="sebelum"> < </button>
+            <img src="../Asset Files/Images/Recommendation1.jpg" alt="" class="slider-img" id="slider-img">
+            <button class="slider-btn" id="setelah"> > </button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 C'Groovy. All rights reserved.</p>
+    </footer>
+    
+    <script src="../JS/index-script.js"></script>
+</body>
+</html>

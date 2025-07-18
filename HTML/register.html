@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C'Groovy - Register</title>
+    <link rel="stylesheet" href="../CSS/register-style.css">
+</head>
+<body>
+    <!-- Navigation -->
+     <header>
+        <nav class="navbar">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger-icon">&#9776;</label>
+            <div class="logo">C'Groovy</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="collection.html">Song Collection</a></li>
+                <li><a href="detail-BlindingLights.html">Song Details</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Register Form -->
+    <div class="form-container">
+        <h2>Register to C'Groovy</h2>
+        <form id="registerForm">
+            <!-- Text Input -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <!-- Email Input -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <!-- Password Input -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+
+            <!-- Age Input -->
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age">
+
+            <!-- Gender (Radio Buttons) -->
+            <label>Gender:</label>
+            <div class="radio-group">
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+            </div>
+
+            <!-- Terms (Checkbox) -->
+            <label><input type="checkbox" id="terms"> I agree to the terms and conditions</label>
+
+            <button type="submit" id="registerFormButton">Register</button>
+        </form>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 C'Groovy. All rights reserved.</p>
+    </footer>
+
+    <script src="../JS/register-script.js"></script>
+</body>
+</html>
